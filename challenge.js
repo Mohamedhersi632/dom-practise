@@ -60,7 +60,14 @@
 // salary and tax if salary is 500 and tax is 20%
 // what is the take home salary 
 
-let salary = 500;
-let tax = .2;
-let takeHomeSalary = salary - (salary * tax); 
-console.log('Your Take Home Salary Is ' + takeHomeSalary)
+// let salary = 500;
+// let tax = .2;
+// let takeHomeSalary = salary - (salary * tax); 
+// console.log('Your Take Home Salary Is ' + takeHomeSalary)
+
+// if we have 1000 laptops and 1009 bags how many bags remain if you put one laptop in each bag.
+
+// let totalBags = 1009
+// let totalLaptop = 1000
+// let remainder = totalBags % totalLaptop
+// console.log(remainder)
