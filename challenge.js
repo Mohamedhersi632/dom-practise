@@ -13,12 +13,12 @@
 
 // convert the while loop above to do-while
 
-let i = 0;
-do{
-console.log("Dini")
-i++
-}
- while (i < 5);
+// let i = 0;
+// do{
+// console.log("Dini")
+// i++
+// }
+//  while (i < 5);
 
 
 // // write if/else if, chained code to check what day of the it is
@@ -49,9 +49,18 @@ i++
 
 // write a function that take two numbers
 
-function multiply (num1,num2); {
-    let result = num1 * num2;
-    return result;
-}
- let sum = multiply (5,6)
- console.log(sum)
+// function multiply (num1,num2); {
+//     let result = num1 * num2;
+//     return result;
+// }
+//  let sum = multiply (5,6)
+//  console.log(sum)
+
+// write a simple program that writes that calculates your 
+// salary and tax if salary is 500 and tax is 20%
+// what is the take home salary 
+
+let salary = 500;
+let tax = .2;
+let takeHomeSalary = salary - (salary * tax); 
+console.log('Your Take Home Salary Is ' + takeHomeSalary)
