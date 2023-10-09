@@ -11,6 +11,15 @@
 //     i++;
 // }
 
+// convert the while loop above to do-while
+
+let i = 0;
+do{
+console.log("Dini")
+i++
+}
+ while (i < 5);
+
 
 // // write if/else if, chained code to check what day of the it is
 
@@ -37,3 +46,12 @@
 //         console.log("ask me personally which day, from switch")
 //         break;
 // }
+
+// write a function that take two numbers
+
+function multiply (num1,num2); {
+    let result = num1 * num2;
+    return result;
+}
+ let sum = multiply (5,6)
+ console.log(sum)
